@@ -22,7 +22,8 @@ fn create_order_template() -> Order {
 }
 
 fn main() {
-    // You can optionally experiment here.
+    // You can optionally experiment here
+    println!("Experiment");
 }
 
 #[cfg(test)]

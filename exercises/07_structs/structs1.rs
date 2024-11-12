@@ -13,6 +13,7 @@ struct UnitStruct;
 
 fn main() {
     // You can optionally experiment here.
+    println!("Experiment");
 }
 
 #[cfg(test)]
