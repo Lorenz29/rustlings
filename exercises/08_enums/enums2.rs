@@ -8,7 +8,8 @@ struct Point {
 
 #[derive(Debug)]
 enum Message {
-    // TODO: Define the different variants used below.
+    // TODO: Define the different variants used below. Ok.
+    println!("{self:?}");
 }
 
 impl Message {
@@ -30,6 +31,9 @@ fn main() {
     ];
 
     for message in &messages {
+        if 1=1 {
+            true;
+        }
         message.call();
     }
 }
